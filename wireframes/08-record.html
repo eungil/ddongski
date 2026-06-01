@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>똥스키 — 기록 탭</title>
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+  <p class="screen-label">메인 — 기록 탭</p>
+  <div class="phone">
+    <div class="status-bar"><span>9:41</span><span>●●●</span></div>
+    <div class="screen">
+      <!-- 강아지 전환 바 -->
+      <div class="dog-bar">
+        <div class="dog-avatar selected">🐩</div>
+        <div class="dog-avatar">🐕</div>
+        <div class="dog-add">+</div>
+      </div>
+
+      <!-- 날짜 선택 -->
+      <div style="display:flex;align-items:center;justify-content:center;gap:20px;padding:12px 0;border-bottom:1px solid #F0F0F0">
+        <span style="font-size:20px;color:#BDBDBD">‹</span>
+        <span style="font-size:15px;font-weight:700;color:#1A1A1A">2026.06.01 (오늘)</span>
+        <span style="font-size:20px;color:#BDBDBD">›</span>
+      </div>
+
+      <div style="flex:1;overflow-y:auto;padding-bottom:8px">
+        <!-- 4C 항목 -->
+        <div class="record-section">
+          <div class="record-section-title">기본 항목 (4C)</div>
+          <div class="record-grid">
+            <div class="record-card selected">
+              <div class="record-card-label">형태 Consistency</div>
+              <div class="record-card-value">🌭 단단한 통나무형</div>
+            </div>
+            <div class="record-card">
+              <div class="record-card-label">색깔 Color</div>
+              <div class="record-card-value" style="color:#BDBDBD">선택</div>
+            </div>
+            <div class="record-card">
+              <div class="record-card-label">코팅 Coating</div>
+              <div class="record-card-value" style="color:#BDBDBD">선택</div>
+            </div>
+            <div class="record-card">
+              <div class="record-card-label">내용물 Content</div>
+              <div class="record-card-value" style="color:#BDBDBD">선택</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 추가 항목 -->
+        <div class="record-section" style="margin-top:4px">
+          <div class="record-section-title">추가 항목</div>
+          <div class="record-grid">
+            <div class="record-card">
+              <div class="record-card-label">양</div>
+              <div class="record-card-value" style="color:#BDBDBD">선택</div>
+            </div>
+            <div class="record-card">
+              <div class="record-card-label">배변 행동</div>
+              <div class="record-card-value" style="color:#BDBDBD">선택</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 선택적 항목 -->
+        <div class="record-section" style="margin-top:4px">
+          <div class="record-section-title">선택 기록</div>
+          <div class="record-full">
+            <div class="record-full-label">🦨 냄새 이상</div>
+            <div class="toggle"><div class="toggle-thumb"></div></div>
+          </div>
+          <div class="record-full">
+            <div class="record-full-label">📝 메모</div>
+            <div class="record-full-value">추가하기 ›</div>
+          </div>
+          <div class="record-full" style="margin-bottom:0">
+            <div class="record-full-label">📷 사진 첨부</div>
+            <div class="record-full-value">추가하기 ›</div>
+          </div>
+        </div>
+
+        <!-- 저장 버튼 -->
+        <div style="padding:16px 16px 0">
+          <div class="btn-primary">기록 저장</div>
+          <div style="text-align:center;margin-top:10px;font-size:12px;color:#BDBDBD">
+            배변 가이드 보기 ›
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 탭바 -->
+    <div class="tab-bar">
+      <div class="tab-item active">
+        <div class="tab-icon">📝</div>
+        <div>기록</div>
+      </div>
+      <div class="tab-item">
+        <div class="tab-icon">📊</div>
+        <div>현황</div>
+      </div>
+      <div class="tab-item">
+        <div class="tab-icon">⚙️</div>
+        <div>설정</div>
+      </div>
+    </div>
+  </div>
+  <div class="nav">
+    <a href="index.html" class="home">목차</a>
+    <a href="01-onboarding-1.html">1</a>
+    <a href="02-onboarding-2.html">2</a>
+    <a href="03-onboarding-3.html">3</a>
+    <a href="04-onboarding-4.html">4</a>
+    <a href="05-onboarding-5.html">5</a>
+    <a href="06-onboarding-6.html">6</a>
+    <a href="07-onboarding-7.html">7</a>
+    <a href="08-record.html" class="current">기록</a>
+    <a href="09-status.html">현황</a>
+    <a href="10-settings.html">설정</a>
+  </div>
+</body>
+</html>

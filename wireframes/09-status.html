@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>똥스키 — 현황 탭</title>
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+  <p class="screen-label">메인 — 현황 탭</p>
+  <div class="phone">
+    <div class="status-bar"><span>9:41</span><span>●●●</span></div>
+    <div class="screen">
+      <!-- 강아지 전환 바 -->
+      <div class="dog-bar">
+        <div class="dog-avatar selected">🐩</div>
+        <div class="dog-avatar">🐕</div>
+        <div class="dog-add">+</div>
+      </div>
+
+      <!-- 마지막 기록 카드 -->
+      <div class="status-card">
+        <div class="status-indicator">
+          <div class="status-dot green"></div>
+          <div style="font-size:12px;font-weight:600;color:#52C97D">정상</div>
+        </div>
+        <div class="status-elapsed">5시간 전</div>
+        <div class="status-sub">마지막 배변 기록</div>
+        <div style="margin-top:12px;padding-top:12px;border-top:1px solid #EFEFEF;font-size:13px;color:#555;display:flex;gap:12px">
+          <span>🌭 단단한 통나무형</span>
+          <span>🟤 갈색</span>
+          <span>📦 보통</span>
+        </div>
+      </div>
+
+      <!-- 주간 그래프 -->
+      <div class="graph-area">
+        <div class="graph-title">최근 7일 배변 기록</div>
+        <div class="graph-body">
+          <div class="graph-col">
+            <div class="graph-dot green"></div>
+            <div class="graph-dot green"></div>
+            <div class="graph-date">월</div>
+          </div>
+          <div class="graph-col">
+            <div class="graph-dot green"></div>
+            <div class="graph-date">화</div>
+          </div>
+          <div class="graph-col">
+            <div class="graph-dot yellow"></div>
+            <div class="graph-dot yellow"></div>
+            <div class="graph-dot yellow"></div>
+            <div class="graph-date">수</div>
+          </div>
+          <div class="graph-col">
+            <div class="graph-dot red"></div>
+            <div class="graph-date">목</div>
+          </div>
+          <div class="graph-col">
+            <div class="graph-dot green"></div>
+            <div class="graph-dot green"></div>
+            <div class="graph-date">금</div>
+          </div>
+          <div class="graph-col">
+            <div class="graph-dot green"></div>
+            <div class="graph-date">토</div>
+          </div>
+          <div class="graph-col">
+            <div class="graph-dot green"></div>
+            <div class="graph-date">일</div>
+          </div>
+        </div>
+        <div style="margin-top:12px;display:flex;gap:12px;font-size:11px;color:#999">
+          <span style="display:flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:4px;background:#52C97D;display:inline-block"></span>정상</span>
+          <span style="display:flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:4px;background:#FFB347;display:inline-block"></span>주의</span>
+          <span style="display:flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:4px;background:#FF5959;display:inline-block"></span>경고</span>
+        </div>
+      </div>
+
+      <!-- 경고 히스토리 -->
+      <div style="margin:0 16px;border:1.5px solid #FFE4B5;border-radius:14px;padding:14px 16px;background:#FFFBF0">
+        <div style="font-size:11px;font-weight:700;color:#E8941A;margin-bottom:8px">⚠️ 최근 주의</div>
+        <div style="font-size:13px;color:#555">목요일 · 빨간 점액 코팅 기록</div>
+        <div style="font-size:11px;color:#BDBDBD;margin-top:2px">48시간 경과 관찰 권장</div>
+      </div>
+    </div>
+
+    <!-- AdMob 배너 -->
+    <div class="admob">광고 영역 (AdMob 320×50)</div>
+    <!-- 탭바 -->
+    <div class="tab-bar">
+      <div class="tab-item">
+        <div class="tab-icon">📝</div>
+        <div>기록</div>
+      </div>
+      <div class="tab-item active">
+        <div class="tab-icon">📊</div>
+        <div>현황</div>
+      </div>
+      <div class="tab-item">
+        <div class="tab-icon">⚙️</div>
+        <div>설정</div>
+      </div>
+    </div>
+  </div>
+  <div class="nav">
+    <a href="index.html" class="home">목차</a>
+    <a href="01-onboarding-1.html">1</a>
+    <a href="02-onboarding-2.html">2</a>
+    <a href="03-onboarding-3.html">3</a>
+    <a href="04-onboarding-4.html">4</a>
+    <a href="05-onboarding-5.html">5</a>
+    <a href="06-onboarding-6.html">6</a>
+    <a href="07-onboarding-7.html">7</a>
+    <a href="08-record.html">기록</a>
+    <a href="09-status.html" class="current">현황</a>
+    <a href="10-settings.html">설정</a>
+  </div>
+</body>
+</html>
