@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>똥스키 — 와이어프레임 목차</title>
+  <link rel="stylesheet" href="wireframe.css">
+  <style>
+    .index-card {
+      width: 375px;
+      background: #fff;
+      border-radius: 20px;
+      border: 1.5px solid #E0E0E0;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    .index-header {
+      background: #333;
+      color: #fff;
+      padding: 28px 24px 20px;
+    }
+    .index-header h1 { font-size: 24px; font-weight: 800; margin-bottom: 4px; }
+    .index-header p { font-size: 13px; opacity: 0.6; }
+    .index-group { padding: 16px 20px 0; }
+    .index-group-title {
+      font-size: 10px;
+      font-weight: 700;
+      color: #999;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .index-link {
+      display: flex;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #1A1A1A;
+      font-size: 14px;
+      font-weight: 500;
+      gap: 12px;
+      margin-bottom: 4px;
+      transition: background 0.1s;
+    }
+    .index-link:hover { background: #F5F5F5; }
+    .index-link-num {
+      width: 24px;
+      height: 24px;
+      background: #EFEFEF;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      color: #666;
+      flex-shrink: 0;
+    }
+    .index-link-arrow { margin-left: auto; color: #C0C0C0; font-size: 13px; }
+    .index-footer { padding: 16px 20px 24px; }
+    .index-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 600;
+      background: #FFF3E0;
+      color: #E8941A;
+    }
+  </style>
+</head>
+<body>
+  <p class="screen-label">똥스키 — 와이어프레임</p>
+  <div class="index-card">
+    <div class="index-header">
+      <h1>💩 똥스키</h1>
+      <p>반려견 배변 트래커 — 와이어프레임 v0.1</p>
+    </div>
+
+    <div class="index-group">
+      <div class="index-group-title">온보딩 (7 screens)</div>
+      <a class="index-link" href="01-onboarding-1.html">
+        <span class="index-link-num">1</span> 이름 · 견종 · 나이
+        <span class="index-link-arrow">›</span>
+      </a>
+      <a class="index-link" href="02-onboarding-2.html">
+        <span class="index-link-num">2</span> 사이즈 · 체중
+        <span class="index-link-arrow">›</span>
+      </a>
+      <a class="index-link" href="03-onboarding-3.html">
+        <span class="index-link-num">3</span> 중성화 여부
+        <span class="index-link-arrow">›</span>
+      </a>
+      <a class="index-link" href="04-onboarding-4.html">
+        <span class="index-link-num">4</span> 평소 배변 색깔
+        <span class="index-link-arrow">›</span>
+      </a>
+      <a class="index-link" href="05-onboarding-5.html">
+        <span class="index-link-num">5</span> 평소 배변 형태
+        <span class="index-link-arrow">›</span>
+      </a>
+      <a class="index-link" href="06-onboarding-6.html">
+        <span class="index-link-num">6</span> 평소 하루 횟수
+        <span class="index-link-arrow">›</span>
+      </a>
+      <a class="index-link" href="07-onboarding-7.html">
+        <span class="index-link-num">7</span> 완료 · 첫 기록 유도
+        <span class="index-link-arrow">›</span>
+      </a>
+    </div>
+
+    <div class="index-group" style="padding-bottom:8px">
+      <div class="index-group-title">메인 탭 (3 screens)</div>
+      <a class="index-link" href="08-record.html">
+        <span class="index-link-num">📝</span> 기록 탭
+        <span class="index-link-arrow">›</span>
+      </a>
+      <a class="index-link" href="09-status.html">
+        <span class="index-link-num">📊</span> 현황 탭
+        <span class="index-link-arrow">›</span>
+      </a>
+      <a class="index-link" href="10-settings.html">
+        <span class="index-link-num">⚙️</span> 설정 탭
+        <span class="index-link-arrow">›</span>
+      </a>
+    </div>
+
+    <div class="index-footer">
+      <span class="index-badge">PRD 확정 2026-06-01</span>
+    </div>
+  </div>
+</body>
+</html>
